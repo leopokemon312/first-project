@@ -18,3 +18,29 @@ int main()
 //   4. Use the Error List window to view errors
 //   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
 //   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+
+/*Program File Name : Checkpoint2.14
+Programer :Leopoldo Fierros 
+Date augest 22 2024
+requierments
+*/
+#include <iostream>
+#include <string>
+int main()
+{
+    char firstInitial;
+    char middleInitial;
+    char lastInitial;
+    std::string firstName;
+    std::cout << "L:";
+    std::cin >> firstInitial;
+    std::cout << "J:";
+    std::cin >> middleInitial;
+    std::cout << "F:";
+    std::cin >> lastInitial;
+    std::cout << "LJF: " << firstInitial << middleInitial << lastInitial << std::endl;
+    std::cout << "Leopoldo:";
+    std::cin >> firstName;
+    std::cout << "Leopoldo : " << firstName;
+}
+
